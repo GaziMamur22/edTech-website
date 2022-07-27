@@ -1,0 +1,23 @@
+.carousel-item{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.carousel-caption{
+    bottom: 150px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.slider-heading{
+    font-size: 60px;
+    font-weight: 600;
+}
+.slider-text{
+    font-size: 18px;
+}
+.btn-slider{
+    background-color: #289BDE;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 500;
+}
