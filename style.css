@@ -16,11 +16,7 @@
     background-size: cover;
     background-position: center;
 }
-.carousel-caption{
-    bottom: 150px;
-    padding-right: 100px;
-    padding-left: 100px;
-}
+
 .slider-heading{
     font-size: 60px;
     font-weight: 600;
