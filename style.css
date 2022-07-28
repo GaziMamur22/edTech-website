@@ -90,3 +90,41 @@
     font-size: 26px;
     font-weight: 500;
 }
+.feedback-body{
+    position: relative;
+}
+.rating a{
+    text-decoration: none;
+}
+.rating .fa-star{
+    color: #f59e0b;
+    font-size: 20px;
+    padding-right: 5px;
+}
+ .empty{
+    opacity: .5;
+}
+
+.bg-prev{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    /* background-color: #289bde6e; */
+    background-color: #289BDE;
+    border-radius:50%;
+    
+}
+.feedback-arrow{
+ font-size: 5px;
+}
+
+.bg-next{
+    position: relative;
+    margin-right: -75px;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #289BDE;
+    border-radius:50%;
+    
+}
