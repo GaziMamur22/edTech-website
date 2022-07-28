@@ -64,3 +64,29 @@
     font-weight: 500;
     color: gray;
 }
+
+.join-bg{
+    background-color: #289BDE;
+}
+.join-info h1{
+    font-size: 46px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.join-info p{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+}
+.join-btn{
+    background-color: #ffffff;
+    color: #289BDE;
+    font-size: 26px;
+    font-weight: 500;
+}
+.student-btn{
+    background-color: #289BDE;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 500;
+}
