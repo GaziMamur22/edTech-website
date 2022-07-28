@@ -1,152 +1,149 @@
 /* nav-styles */
-.edteach-nav{
-    font-size: 20px;
-    font-weight: 500;
-    color: darkgray;
+.edteach-nav {
+  font-size: 20px;
+  font-weight: 500;
+  color: darkgray;
 }
-.menu-btn{
-    color: #289BDE;
-    border: 1px solid #289BDE;
-    font-size: 20px;
-    font-weight: 500;
+.menu-btn {
+  color: #289bde;
+  border: 1px solid #289bde;
+  font-size: 20px;
+  font-weight: 500;
 }
 /* slider-styles */
-.carousel-item{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.carousel-item {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.slider-heading{
-    font-size: 60px;
-    font-weight: 600;
+.slider-heading {
+  font-size: 60px;
+  font-weight: 600;
 }
-.slider-text{
-    font-size: 18px;
+.slider-text {
+  font-size: 18px;
 }
-.btn-slider{
-    background-color: #289BDE;
-    color: #ffffff;
-    font-size: 26px;
-    font-weight: 500;
+.btn-slider {
+  background-color: #289bde;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 500;
 }
-.image-bright img{
-    filter: brightness(50%);
+.image-bright img {
+  filter: brightness(50%);
 }
 /* course-styles */
-.course-price{
-    color: #289BDE;
-    font-weight: 700;
+.course-price {
+  color: #289bde;
+  font-weight: 700;
 }
-.course-btn{
-    background-color: #289BDE;
-    font-size: 20px;
-    font-weight: 500;
+.course-btn {
+  background-color: #289bde;
+  font-size: 20px;
+  font-weight: 500;
 }
 /* student-styles */
-.student-info{
-    background-color: #F4FAFD;
+.student-info {
+  background-color: #f4fafd;
 }
 .student-heading h1 {
-    font-size: 46px;
-    font-weight: 700;
-   
+  font-size: 46px;
+  font-weight: 700;
 }
-.student-heading p{
-    color: gray;
-    font-size: 18px;
-    font-weight: 500;
+.student-heading p {
+  color: gray;
+  font-size: 18px;
+  font-weight: 500;
 }
-.student-rating h1{
-    font-size: 46px;
-    font-weight: 700;
+.student-rating h1 {
+  font-size: 46px;
+  font-weight: 700;
 }
-.student-rating p{
-    font-size: 22px;
-    font-weight: 500;
-    color: gray;
+.student-rating p {
+  font-size: 22px;
+  font-weight: 500;
+  color: gray;
 }
 /* join-styles */
 
-.join-bg{
-    background-color: #289BDE;
+.join-bg {
+  background-color: #289bde;
 }
-.join-info h1{
-    font-size: 46px;
-    font-weight: 700;
-    color: #ffffff;
+.join-info h1 {
+  font-size: 46px;
+  font-weight: 700;
+  color: #ffffff;
 }
-.join-info p{
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: 500;
+.join-info p {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
 }
-.join-btn{
-    background-color: #ffffff;
-    color: #289BDE;
-    font-size: 26px;
-    font-weight: 500;
+.join-btn {
+  background-color: #ffffff;
+  color: #289bde;
+  font-size: 26px;
+  font-weight: 500;
 }
-.student-btn{
-    background-color: #289BDE;
-    color: #ffffff;
-    font-size: 26px;
-    font-weight: 500;
+.student-btn {
+  background-color: #289bde;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 500;
 }
 /* feedback-styles */
-.feedback-body{
-    position: relative;
+.feedback-body {
+  position: relative;
 }
-.rating a{
-    text-decoration: none;
+.rating a {
+  text-decoration: none;
 }
-.rating .fa-star{
-    color: #f59e0b;
-    font-size: 20px;
-    padding-right: 5px;
+.rating .fa-star {
+  color: #f59e0b;
+  font-size: 20px;
+  padding-right: 5px;
 }
- .empty{
-    opacity: .5;
-}
-
-.bg-prev{
-    position: relative;
-    width: 50px;
-    height: 50px;
-    background-color: #289BDE;
-    border-radius:50%;
-    
-}
-.feedback-arrow{
- font-size: 5px;
+.empty {
+  opacity: 0.5;
 }
 
-.bg-next{
-    position: relative;
-    margin-right: -75px;
-    top: 50%;
-    width: 50px;
-    height: 50px;
-    background-color: #289BDE;
-    border-radius:50%;
-    
+.bg-prev {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: #289bde;
+  border-radius: 50%;
+}
+.feedback-arrow {
+  font-size: 5px;
+}
+
+.bg-next {
+  position: relative;
+  margin-right: -75px;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: #289bde;
+  border-radius: 50%;
 }
 /* company-styles */
-.company-heading{
-    font-size: 46px;
-    font-weight: 700;
+.company-heading {
+  font-size: 46px;
+  font-weight: 700;
 }
 /* footer-styles */
-.footer-info{
-   padding: 150px 0;
+.footer-info {
+  padding: 150px 0;
 }
-.footer-addres h1{
-    font-size: 46px;
-    color: #ffffff;
-    font-weight: 700;
+.footer-addres h1 {
+  font-size: 46px;
+  color: #ffffff;
+  font-weight: 700;
 }
-.footer-addres p{
-    color: #dadada;
-    font-size: 20px;
-    font-weight: 500;
+.footer-addres p {
+  color: #dadada;
+  font-size: 20px;
+  font-weight: 500;
 }
