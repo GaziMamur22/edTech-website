@@ -1,4 +1,4 @@
-
+/* nav-styles */
 .edteach-nav{
     font-size: 20px;
     font-weight: 500;
@@ -10,6 +10,7 @@
     font-size: 20px;
     font-weight: 500;
 }
+/* slider-styles */
 .carousel-item{
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,6 +34,10 @@
     font-size: 26px;
     font-weight: 500;
 }
+.image-bright img{
+    filter: brightness(50%);
+}
+/* course-styles */
 .course-price{
     color: #289BDE;
     font-weight: 700;
@@ -42,6 +47,7 @@
     font-size: 20px;
     font-weight: 500;
 }
+/* student-styles */
 .student-info{
     background-color: #F4FAFD;
 }
@@ -64,6 +70,7 @@
     font-weight: 500;
     color: gray;
 }
+/* join-styles */
 
 .join-bg{
     background-color: #289BDE;
@@ -90,6 +97,7 @@
     font-size: 26px;
     font-weight: 500;
 }
+/* feedback-styles */
 .feedback-body{
     position: relative;
 }
@@ -109,7 +117,6 @@
     position: relative;
     width: 50px;
     height: 50px;
-    /* background-color: #289bde6e; */
     background-color: #289BDE;
     border-radius:50%;
     
@@ -127,4 +134,23 @@
     background-color: #289BDE;
     border-radius:50%;
     
+}
+/* company-styles */
+.company-heading{
+    font-size: 46px;
+    font-weight: 700;
+}
+/* footer-styles */
+.footer-info{
+   padding: 150px 0;
+}
+.footer-addres h1{
+    font-size: 46px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.footer-addres p{
+    color: #dadada;
+    font-size: 20px;
+    font-weight: 500;
 }
