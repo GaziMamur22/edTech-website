@@ -1,3 +1,15 @@
+
+.edteach-nav{
+    font-size: 20px;
+    font-weight: 500;
+    color: darkgray;
+}
+.menu-btn{
+    color: #289BDE;
+    border: 1px solid #289BDE;
+    font-size: 20px;
+    font-weight: 500;
+}
 .carousel-item{
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,5 +31,14 @@
     background-color: #289BDE;
     color: #ffffff;
     font-size: 26px;
+    font-weight: 500;
+}
+.course-price{
+    color: #289BDE;
+    font-weight: 700;
+}
+.course-btn{
+    background-color: #289BDE;
+    font-size: 20px;
     font-weight: 500;
 }
