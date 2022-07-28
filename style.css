@@ -42,3 +42,25 @@
     font-size: 20px;
     font-weight: 500;
 }
+.student-info{
+    background-color: #F4FAFD;
+}
+.student-heading h1 {
+    font-size: 46px;
+    font-weight: 700;
+   
+}
+.student-heading p{
+    color: gray;
+    font-size: 18px;
+    font-weight: 500;
+}
+.student-rating h1{
+    font-size: 46px;
+    font-weight: 700;
+}
+.student-rating p{
+    font-size: 22px;
+    font-weight: 500;
+    color: gray;
+}
