@@ -26,7 +26,7 @@
 
       <!------------------- navbar-star ----------------------------------->
       <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
+        <div class="container-fluid d-flex justify-content-center align-items-center">
           <div>
             <a class="navbar-brand fs-1 fw-bold text-dark" href="#">Pro Edu</a>
             <button
@@ -80,8 +80,8 @@
             </ul>
           </div>
           <div>
-            <form role="search">
-              <button class="btn menu-btn py-3 px-5" type="submit">
+            <form role="search ">
+              <button class="btn menu-btn py-3 px-5 d-none d-sm-none d-md-none d-lg-block" type="submit">
                 Register
               </button>
             </form>
@@ -108,7 +108,7 @@
                 class="d-block w-100"
                 alt="..."
               />
-              <div class="carousel-caption text-white">
+              <div class="carousel-caption text-white carousel-caption text-white d-flex flex-column justify-content-center align-items-center h-100">
                 <div class="d-flex flex-column">
                   <h1 class="slider-heading fs-1-md">
                     Get Started Digital Learning
@@ -133,7 +133,7 @@
                 class="d-block w-100"
                 alt="..."
               />
-              <div class="carousel-caption text-white">
+              <div class="carousel-caption text-white d-flex flex-column justify-content-center align-items-center h-100">
                 <h1 class="slider-heading">Get Started Digital Learning</h1>
                 <p class="slider-text">
                   It is a long established fact that a reader will be distracted
@@ -153,7 +153,7 @@
                 class="d-block w-100"
                 alt="..."
               />
-              <div class="carousel-caption text-white">
+              <div class="carousel-caption text-white carousel-caption text-white d-flex flex-column justify-content-center align-items-center h-100">
                 <h1 class="slider-heading">Get Started Digital Learning</h1>
                 <p class="slider-text">
                   It is a long established fact that a reader will be distracted
@@ -364,7 +364,7 @@
         <div>
           <div class="row g-0">
             <div class="col-lg-6 col-md-6 col-sm-12">
-              <img src="images/working.png" class="w-100" alt="..." />
+              <img src="images/working.png" class="w-100 h-100" alt="..." />
             </div>
             <div class="d-flex col-lg-6 col-md-6 col-sm-12">
               <div
@@ -399,11 +399,11 @@
                 </div>
 
                 <div class="d-flex justify-content-between mb-4 student-rating">
-                  <div>
+                  <div class="pe-3">
                     <h1>3.2K+</h1>
                     <p>Online Course</p>
                   </div>
-                  <div>
+                  <div class="pe-3">
                     <h1>600+</h1>
                     <p>Xpert member</p>
                   </div>
@@ -430,35 +430,28 @@
 
 
       <!------ join-section-start ------>
-      <section class="my-5 join-bg rounded">
-        <div class="container">
-          <div
-            class="row d-flex justify-content-center align-items-center p-5 join-info"
-          >
-            <div
-              class="col-lg-6 col-md-12 col-sm-12 text-md-center text-sm-center"
-            >
-              <div>
-                <h1 class="mb-4">Ready to join?</h1>
-              </div>
-              <div>
+      <section class="my-5">
+        <div class="card mb-3 border-0 p-5 join-bg ">
+          <div class="row g-0 d-flex justify-content-between align-items-center">
+            <div class="col-lg-7 col-md-12 join-info">
+              <div class="text-sm-center text-md-center text-lg-start">
+                <div><h1 class="mb-">Ready to join?</h1></div>
                 <p>
                   It is a long established fact that a reader will be distracted
                   by the readable content of a page when looking at its layout
                 </p>
-              </div>
             </div>
-            <div
-              class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-end justify-content-md-center"
-            >
-              <button type="button" class="btn join-btn py-3 px-5">
-                Register Now
-              </button>
+          </div>
+            <div class="col-lg-5 col-md-12">
+              <div class="card-body d-flex justify-content-lg-end justify-content-md-center justify-content-sm-center">
+                <button type="button" class="join-btn py-2 px-4 rounded">
+                  Register Now
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <section></section>
       <!------ join-section-end ------>
 
       <!---------student-section-start-------------->
@@ -547,10 +540,10 @@
           </p>
         </div>
         <div
-          class="row row-cols-1 row-cols-md-2 d-flex justify-content-between g-4"
+          class="row row-cols-1 row-cols-md-2 row-cols-sm-1 d-flex justify-content-between g-4"
           style="width: 100%"
         >
-          <div class="col h-50 border rounded p-5" style="width: 49%">
+          <div class="col border rounded p-5" >
             <div
               id="carouselExampleControlsNoTouching"
               class="carousel slide"
@@ -594,7 +587,7 @@
               </div>
             </div>
           </div>
-          <div class="col h-50 border rounded p-5" style="width: 49%">
+          <div class="col border rounded p-5">
             <div
               id="carouselExampleControlsNoTouching"
               class="carousel slide"

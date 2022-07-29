@@ -1,4 +1,7 @@
+
 /* nav-styles */
+
+
 .edteach-nav {
   font-size: 20px;
   font-weight: 500;
@@ -48,16 +51,16 @@
   background-color: #f4fafd;
 }
 .student-heading h1 {
-  font-size: 46px;
+  font-size: 30px;
   font-weight: 700;
 }
 .student-heading p {
   color: gray;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
 }
 .student-rating h1 {
-  font-size: 46px;
+  font-size: 30px;
   font-weight: 700;
 }
 .student-rating p {
